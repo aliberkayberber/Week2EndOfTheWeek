@@ -138,7 +138,7 @@ static int Elder(int s1 ,int s2 , int s3)
 
 }
 
-// 12. soru çözümü !!! 
+// 12. soru çözümü !!! params araştır
 
 System.Console.WriteLine("12) soru çözümü");
 
@@ -148,7 +148,7 @@ static int GetNumbersFindMaxNumber()
 {
     int counter=0;
     int maxNumber=0;
-    System.Console.Write("Çıkmak için tuşuna basınız q \nSayı giriniz: ");
+    System.Console.Write("Çıkmak için q tuşuna basınız \nSayı giriniz: ");
     
     while(true)
     {
@@ -188,6 +188,7 @@ static int GetNumbersFindMaxNumber()
     }
     return maxNumber;
 }
+
 
 
 // 13. soru çözümü
@@ -230,7 +231,7 @@ static bool EvenOrOdd(int x)
     {
         return true;
     }
-    else return false;
+    return false;
 }
 
 
