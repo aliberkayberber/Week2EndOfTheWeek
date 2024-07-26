@@ -138,7 +138,7 @@ static int Elder(int s1 ,int s2 , int s3)
 
 }
 
-// 12. soru çözümü !!! params araştır
+// 12. soru çözümü !!!
 
 System.Console.WriteLine("12) soru çözümü");
 
